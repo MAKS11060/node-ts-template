@@ -1,0 +1,17 @@
+{
+  "name": "node-ts-template",
+  "type": "module",
+  "private": true,
+  "version": "0.0.0",
+  "scripts": {
+    "dev": "node --env-file=.env --import tsx --watch src/main.ts",
+    "start": "node --env-file=.env --import tsx src/main.ts"
+  },
+  "devDependencies": {
+    "@hono/node-server": "^1.4.1",
+    "@types/node": "^20.11.5",
+    "hono": "^3.12.6",
+    "tsx": "^4.7.0",
+    "typescript": "^5.3.3"
+  }
+}
